@@ -1,0 +1,6 @@
+@ae_sample_identity_webapi_HostAddress = http://localhost:5023
+
+GET {{ae_sample_identity_webapi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
