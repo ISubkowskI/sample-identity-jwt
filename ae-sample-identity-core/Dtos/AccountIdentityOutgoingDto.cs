@@ -1,6 +1,4 @@
-﻿using System.Security.Claims;
-
-namespace Ae.Sample.Identity.Dtos
+﻿namespace Ae.Sample.Identity.Dtos
 {
     public sealed record AccountIdentityOutgoingDto
     {

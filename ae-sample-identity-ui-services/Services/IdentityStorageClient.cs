@@ -5,7 +5,6 @@ using System.Net.Http.Json;
 using Ae.Sample.Identity.Ui.Dtos;
 using Ae.Sample.Identity.Ui.UiData;
 using Ae.Sample.Identity.Ui.Settings;
-using System.Security.Claims;
 
 namespace Ae.Sample.Identity.Ui.Services
 {
@@ -146,7 +145,7 @@ namespace Ae.Sample.Identity.Ui.Services
             }
             catch (Exception e)
             {
-                _logger.LogError(e, "Error in {MethodName} ...", nameof(UpdateClaimAsync));
+                _logger.LogError(e, "Error in {MethodName} ...", nameof(CreateClaimAsync));
                 throw;
             }
         }
